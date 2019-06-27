@@ -15,7 +15,7 @@ Connection cn=DriverManager.getConnection("jdbc:mariadb://207.246.241.5:3306/200
 Statement smt=cn.createStatement();
 
 //query to display all records from table employee
-String q="Select * from MR_Login2";
+String q="Select * from MR_Loginn";
 
 //to execute query
 ResultSet rs=smt.executeQuery(q);
